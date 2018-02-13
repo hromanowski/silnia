@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main()
+{
+    int s;
+    long long silnia = 1;
+ 
+    cout << "podaj liczbe" << endl;
+    cin >> s;
+ 
+    for (int i = 1; i<=s;i++)
+        silnia *= i;
+ 
+    cout << silnia << endl;
+ 
+    system("PAUSE");
+    return(0);
+}
